@@ -1,0 +1,26 @@
+Create a next-generation single-page website for Glider, a decentralized social and productivity platform powered by Web3. The design should feel futuristic, smooth, and alive — blending glassmorphism, soft neon edges, and subtle 3D network motion. Everything flows in one seamless scroll, with each section revealing a core feature: SocialFi, Messaging, Wallet, Workifi, and AI Hub.
+
+The hero section opens with a dark gradient background and an animated decentralized network — glowing nodes and flowing lines that symbolize data ownership. Headline: “Glider — Own Your Network, Power Your World.” Subtext: “A decentralized social layer combining crypto messaging, multi-chain wallet, secure workspace, and AI collaboration.” Two buttons: Explore Glider (scrolls) and App (links to app.glider.world
+).
+
+A minimal sticky header shows the logo on the left, smooth scroll links in the middle, and a glowing App button on the right. As you scroll, the header gains soft transparency.
+
+The SocialFi section shows interactive avatars connected through animated lines, representing user-owned identity. Text: “Own your profile. Earn through connection.” Include motion cards showing decentralized profiles and tokenized engagement.
+
+Next, flow into Messaging — a chat interface where messages turn into glowing coins mid-animation. Text: “Chat. Transact. Trust.” Briefly show how users can send crypto directly in chat, with end-to-end encryption and on-chain confirmation.
+
+Then Wallet — a unified, multi-blockchain interface with assets orbiting in motion. Text: “One Wallet. Every Chain.” Display Solana, Ethereum, and Polygon logos linked by glowing lines. Mention swaps, bridges, and staking — all within the same wallet.
+
+Smoothly fade into Workifi, Glider’s decentralized workspace. Use a lighter tone and show minimal screens of encrypted mail, video calls, and shared docs. Text: “Work smarter. Secure everything.” Mention that Workifi uses blockchain for authentication and privacy.
+
+The AI Hub section glows with gradient light and subtle motion — a digital brain visual that responds as users scroll. Text: “Intelligence. Privacy. Empowered.” Describe how AI assists with message summaries, meeting notes, and analytics — always privacy-first.
+
+After the features, reveal a clean Tech + Trust section showing icons for encryption, IPFS, and on-chain identity. Keep the design minimal, emphasizing security and transparency.
+
+Then fade into the Investor section with brighter visuals. Text: “Glider is actively raising funds — join our mission.” Include a Contact Us button that scrolls to a simple form (name, email, message). Add a short line about partnerships and strategic investors.
+
+End with a clean footer — community links (Discord, X, GitHub), copyright for Goodluck Technologies, and a tagline: “Built decentralized. Powered by Glider.”
+
+The experience should feel cinematic but fast. Each scroll reveals new motion — messages flying, tokens glowing, AI elements forming from particles. Keep transitions fluid and minimal. Style with dark glass, neon blue or violet accents, and crisp sans-serif typography.
+
+Every part should communicate control, innovation, and privacy — showing Glider as the ultimate decentralized layer for social connection, communication, crypto, and AI collaboration.
