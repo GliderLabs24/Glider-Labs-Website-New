@@ -46,11 +46,11 @@ export function Header() {
         }`}
       >
         <div
-          className={`flex h-14 sm:h-[3.625rem] items-center justify-between gap-2 rounded-[0.65rem] border border-white/[0.12] bg-white/[0.07] px-3 backdrop-blur-2xl transition-all duration-300 sm:gap-3 sm:px-2.5 lg:px-3 ${
+          className={`flex h-14 items-center justify-between gap-2 rounded-[0.65rem] border border-white/[0.12] bg-white/[0.07] px-3 backdrop-blur-2xl transition-all duration-300 sm:h-[3.625rem] sm:gap-3 sm:px-2.5 lg:grid lg:grid-cols-[1fr_auto_1fr] lg:justify-items-stretch lg:px-3 ${
             scrolled ? 'bg-white/[0.09] border-white/[0.14]' : ''
           }`}
         >
-          <div className="flex min-w-0 flex-1 items-center">
+          <div className="flex min-w-0 items-center lg:justify-self-start">
             <Link
               href="/"
               onClick={(e) => {
@@ -70,7 +70,7 @@ export function Header() {
             </Link>
           </div>
 
-          <nav className="hidden lg:flex items-center gap-0.5" data-testid="nav-menu">
+          <nav className="hidden lg:flex lg:items-center lg:justify-center lg:justify-self-center lg:gap-0.5" data-testid="nav-menu">
             {navItems.map((item) =>
               item.kind === 'route' ? (
                 <Link
@@ -95,7 +95,7 @@ export function Header() {
             )}
           </nav>
 
-          <div className="flex shrink-0 items-center">
+          <div className="flex shrink-0 items-center justify-self-end">
             <button
               type="button"
               data-testid="button-app"
