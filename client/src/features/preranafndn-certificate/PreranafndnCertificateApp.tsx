@@ -32,7 +32,7 @@ export default function PreranafndnCertificateApp() {
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
-    document.title = 'Prerana Foundation — Certificate Generator | Glider Labs'
+    document.title = 'Prerana Foundation | Certificate Generator | Glider Labs'
   }, [])
 
   const issueNextCertificateId = useCallback((records: IssuedCertificate[]) => {
@@ -121,8 +121,10 @@ export default function PreranafndnCertificateApp() {
     <div className="prerana-cert-app">
       <header className="prerana-cert-app__header">
         <img src={LOGO_SRC} alt="Prerana Foundation Kanpur" className="prerana-cert-app__logo" />
-        <h1>Prerana Foundation</h1>
-        <p>Membership Certificate Issuer</p>
+        <h1>
+          Prerana Foundation <span className="prerana-cert-app__title-divider">|</span> Membership
+          Certificate Issuer
+        </h1>
       </header>
 
       <main className="prerana-cert-app__main">

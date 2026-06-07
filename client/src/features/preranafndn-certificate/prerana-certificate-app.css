@@ -21,14 +21,16 @@
 .prerana-cert-app__header h1 {
   margin: 0;
   font-family: 'Cinzel', serif;
-  font-size: clamp(1.35rem, 4vw, 1.9rem);
-  letter-spacing: 0.1em;
+  font-size: clamp(1.1rem, 3.2vw, 1.65rem);
+  letter-spacing: 0.06em;
+  line-height: 1.35;
+  color: #0c1a3a;
 }
 
-.prerana-cert-app__header p {
-  margin: 0.4rem 0 0;
-  font-size: 0.95rem;
-  color: #5c6478;
+.prerana-cert-app__title-divider {
+  margin: 0 0.35em;
+  color: #c9a227;
+  font-weight: 400;
 }
 
 .prerana-cert-app__main {
