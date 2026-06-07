@@ -1,0 +1,351 @@
+.prerana-cert-app {
+  min-height: 100vh;
+  background: linear-gradient(165deg, #eef2f9 0%, #f9f6ef 45%, #e9edf6 100%);
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.prerana-cert-app__header {
+  text-align: center;
+  padding: 1.75rem 1rem 1.25rem;
+  color: #0c1a3a;
+}
+
+.prerana-cert-app__logo {
+  display: block;
+  width: clamp(84px, 16vw, 112px);
+  height: clamp(84px, 16vw, 112px);
+  margin: 0 auto 0.75rem;
+  object-fit: contain;
+}
+
+.prerana-cert-app__header h1 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.35rem, 4vw, 1.9rem);
+  letter-spacing: 0.1em;
+}
+
+.prerana-cert-app__header p {
+  margin: 0.4rem 0 0;
+  font-size: 0.95rem;
+  color: #5c6478;
+}
+
+.prerana-cert-app__main {
+  display: grid;
+  grid-template-columns: minmax(300px, 400px) 1fr;
+  gap: 1.5rem;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1rem 2.5rem;
+  align-items: start;
+}
+
+.form-panel,
+.preview-panel {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(12, 26, 58, 0.08);
+  border: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.form-panel {
+  border-top: 4px solid #c9a227;
+}
+
+.form-panel__head {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eceff4;
+}
+
+.form-panel__head h2,
+.preview-panel h2 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  color: #0c1a3a;
+  letter-spacing: 0.07em;
+}
+
+.form-panel__head p {
+  margin: 0.4rem 0 0;
+  font-size: 0.84rem;
+  color: #6b7280;
+}
+
+.form-section {
+  margin-bottom: 1.15rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #0c1a3a;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid #d5dae6;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #1f2937;
+  background: #fafbfc;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #1a2a5e;
+  box-shadow: 0 0 0 3px rgba(26, 42, 94, 0.12);
+  background: #fff;
+}
+
+.upload-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  min-height: 140px;
+  padding: 1rem;
+  border: 2px dashed #c9c9d4;
+  border-radius: 12px;
+  background: #f8f9fc;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  text-align: center;
+}
+
+.upload-box:hover {
+  border-color: #c9a227;
+  background: #fffdf6;
+}
+
+.upload-box__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #1a2a5e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.upload-box__title {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 0.92rem;
+}
+
+.upload-box__sub {
+  font-size: 0.78rem;
+  color: #6b7280;
+}
+
+.photo-done {
+  padding: 0.85rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fafbfc;
+  text-align: center;
+}
+
+.photo-done__thumb {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 0.5rem;
+  border: 2px solid #c9a227;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.photo-done__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-done__text {
+  margin: 0 0 0.65rem;
+  font-size: 0.82rem;
+  color: #4b5563;
+}
+
+.photo-editor__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.btn-secondary,
+.btn-ghost {
+  flex: 1;
+  padding: 0.55rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-secondary {
+  background: #1a2a5e;
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #243570;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #6b7280;
+  border: 1px solid #d1d5db;
+}
+
+.btn-ghost:hover {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.form-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+  margin-bottom: 1.15rem;
+}
+
+.form-meta__item {
+  padding: 0.75rem;
+  background: linear-gradient(180deg, #f8f9fc 0%, #f3f5fa 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.form-meta__label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #1a2a5e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.form-meta__value {
+  font-size: 0.82rem;
+  color: #374151;
+  word-break: break-word;
+}
+
+.btn-download {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  background: linear-gradient(180deg, #1a2a5e 0%, #0f1d42 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.2s, opacity 0.2s;
+  box-shadow: 0 4px 14px rgba(26, 42, 94, 0.25);
+}
+
+.btn-download:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(26, 42, 94, 0.3);
+}
+
+.btn-download:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.form-hint {
+  margin: 0.8rem 0 0;
+  font-size: 0.78rem;
+  color: #6b7280;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.preview-panel h2 {
+  margin-bottom: 1rem;
+}
+
+.preview-scroll {
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.preview-scroll .certificate {
+  margin: 0 auto;
+  min-width: 300px;
+  width: 100%;
+}
+
+.prerana-cert-app__registry {
+  padding: 0 1rem;
+}
+
+.prerana-cert-app__footer {
+  text-align: center;
+  padding: 1.5rem 1rem 2rem;
+  color: #8b92a3;
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+}
+
+.prerana-cert-app__footer-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.prerana-cert-app__footer-link:hover {
+  color: #1a2a5e;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .prerana-cert-app__main {
+    grid-template-columns: 1fr;
+  }
+
+  .form-panel {
+    order: 1;
+  }
+
+  .preview-panel {
+    order: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-panel,
+  .preview-panel {
+    padding: 1rem;
+  }
+
+  .form-meta {
+    grid-template-columns: 1fr;
+  }
+}
