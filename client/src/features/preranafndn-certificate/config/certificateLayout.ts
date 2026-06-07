@@ -23,7 +23,7 @@ export const LAYOUT = {
     width: '13%',
   },
   logo: { top: '2.2%', left: '50%', width: '17.5%' },
-  name: { top: '63.3%', left: '50%', fontScale: 0.032, maxWidth: '70%' },
+  name: { top: '62.5%', left: '50%', fontScale: 0.032, maxWidth: '70%' },
   photo: { top: '49.5%', left: '44.8%', width: '10.9%', height: '12.8%' },
   signatureJyoti: { top: '68.2%', left: '23%', width: '32.6%', rotate: '12deg' },
   signaturePratyush: { top: '74.8%', left: '50%', width: '13.2%', rotate: '12deg' },
