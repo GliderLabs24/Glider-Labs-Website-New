@@ -1,5 +1,10 @@
+import CertificatePasswordGate from '@/features/preranafndn-certificate/CertificatePasswordGate'
 import PreranafndnCertificateApp from '@/features/preranafndn-certificate/PreranafndnCertificateApp'
 
 export default function PreranafndnCertificate() {
-  return <PreranafndnCertificateApp />
+  return (
+    <CertificatePasswordGate>
+      <PreranafndnCertificateApp />
+    </CertificatePasswordGate>
+  )
 }
